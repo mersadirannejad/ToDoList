@@ -1,0 +1,46 @@
+@use '@carbon/react';
+@import '@carbon/react';
+@import '@carbon/styles';
+@import '@carbon/ibm-products/scss/index';
+
+.center--container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.center--container--route {
+  width: 80%;
+  margin: auto;
+}
+
+.list--btn--hover{
+   border-radius: 0;
+   padding: 0.5rem 1rem; 
+   color: #0f62fe;
+   border: solid 1px #0f62fe;
+   margin-left: 0.5rem;
+   
+}
+
+.list--btn--hover:hover {
+  background-color: #0f62fe;
+  color: white;
+  transition: 30ms;
+}
+
+.footer {
+  text-decoration: none;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cds--search--md .cds--search-close {
+  width: 3.05rem;
+  height: 3.05rem;
+}
